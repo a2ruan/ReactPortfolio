@@ -78,7 +78,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Andy. I'm a systems engineer for AMD. I am currently working on developing software systems and pipelines for embedded device testing.",
+    bio: "Hello! I'm Andy. I'm a systems engineer for AMD. I am currently working on developing systems and pipelines for embedded device testing.",
     skills:
         {
             proficientWith: ['python','javascript', 'react', 'redis','postgresql','git', 'bootstrap', 'html5', 'css'],
