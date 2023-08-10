@@ -6,9 +6,11 @@ import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
+import ParticlesBg from './particles/ParticlesBg';
 
 export default function BaseLayout() {
    let [darkMode, setDarkMode] = useState(false);
+   let [bgColor, setBgColor] = useState("none")
 
    function handleToggleDarkMode() {
       let oppositeOfCurrentDarkMode = !darkMode
@@ -16,6 +18,20 @@ export default function BaseLayout() {
       localStorage.setItem('darkMode', `${oppositeOfCurrentDarkMode}`)
       setDarkMode(oppositeOfCurrentDarkMode)
    }
+
+   useEffect(() => {
+      console.log("Dark mode is ");
+      console.log(darkMode);
+      if (darkMode) {
+         console.log("Setting dark bg color")
+         setBgColor("#1f1f1f")
+         
+      }
+      else {
+         console.log("Setting transparent bg color");
+         setBgColor("none");
+      }
+   },[darkMode])
 
    useEffect(() => {
       let detectedDarkMode = eval(localStorage.getItem('darkMode'));
@@ -28,7 +44,8 @@ export default function BaseLayout() {
    }, [])
 
    return (
-      <Box className={darkMode ? Style.dark : Style.light}>
+      <Box className={darkMode ? Style.dark : Style.light} sx={{"background":bgColor}}>
+         <ParticlesBg darkMode={darkMode.valueOf()}/>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
                justifyContent={'space-between'}>
             <Grid item>
