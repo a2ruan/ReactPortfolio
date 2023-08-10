@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0b0cfe33.css",
-    "main.js": "/portfolio/static/js/main.9cdba8e8.js",
+    "main.js": "/portfolio/static/js/main.a3b90293.js",
+    "static/media/report_demo.gif": "/portfolio/static/media/report_demo.117937851f12096c4cd4.gif",
     "static/media/mock5.png": "/portfolio/static/media/mock5.c9b5f54e8517e13fc897.png",
+    "static/media/ardunet_banner.jpg": "/portfolio/static/media/ardunet_banner.79bd2234927e5ff0cbd0.jpg",
+    "static/media/redis_priority_queue.PNG": "/portfolio/static/media/redis_priority_queue.8e69d1dbf43dc1f955e5.PNG",
     "static/media/mock2.png": "/portfolio/static/media/mock2.e8ed2c07928dfdc15a79.png",
     "static/media/self.png": "/portfolio/static/media/self.d32f87b0a250f3ff4a31.png",
-    "static/media/mock1.png": "/portfolio/static/media/mock1.e11f6103909e8c52d703.png",
-    "static/media/mock3.png": "/portfolio/static/media/mock3.8624cffbb7ae4e742c4c.png",
-    "static/media/mock4.png": "/portfolio/static/media/mock4.2b2ba794bc5cd75eb2c1.png",
     "index.html": "/portfolio/index.html",
     "main.0b0cfe33.css.map": "/portfolio/static/css/main.0b0cfe33.css.map",
-    "main.9cdba8e8.js.map": "/portfolio/static/js/main.9cdba8e8.js.map"
+    "main.a3b90293.js.map": "/portfolio/static/js/main.a3b90293.js.map"
   },
   "entrypoints": [
     "static/css/main.0b0cfe33.css",
-    "static/js/main.9cdba8e8.js"
+    "static/js/main.a3b90293.js"
   ]
 }
