@@ -6,7 +6,7 @@ import { HashRouter } from "react-router-dom";
 function App() {
    return (
       <div>
-         <HashRouter base="/">
+         <HashRouter>
             <BaseLayout/>
          </HashRouter>
       </div>
