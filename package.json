@@ -1,7 +1,7 @@
 {
   "name": "portfolioTemplate",
   "version": "2.0.1",
-"homepage":"https://a2ruan.github.io/ReactPortfolio",
+"homepage":"https://a2ruan.github.io/",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.9.0",
