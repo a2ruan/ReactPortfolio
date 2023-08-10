@@ -1,7 +1,7 @@
 {
   "name": "portfolioTemplate",
   "version": "2.0.1",
-"homepage":"https://a2ruan.github.io/",
+"homepage":"https://a2ruan.github.io/ReactPortfolio",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -27,11 +27,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+"predeploy":"npm run build",
+"deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-"predeploy":"npm run build",
-"deploy":"gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
