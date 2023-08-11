@@ -78,11 +78,14 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Andy. I'm a systems engineer for AMD. I am currently working on developing systems and pipelines for embedded device testing.",
+    bio: "Hello! I'm Andy. I'm a systems engineer at AMD. I am currently working on developing software infrastructure for driver and hardware validation.",
     skills:
         {
-            proficientWith: ['python','javascript', 'react', 'redis','postgresql','git', 'bootstrap', 'html5', 'css'],
-            exposedTo: ['nodejs', 'react', 'ansible']
+            languages: ['Python','Java','Javascript','C++'],
+            frameworks:['Flask', 'FastAPI','React.js'],
+            tools: ['Docker','Jenkins','Git','Linux'],
+            databases: ['PostgreSQL','MySQL','Redis'],
+            exposedTo: ['NodeJS', 'Ansible','Kubernetes','AWS Services']
         }
     ,
     hobbies: [

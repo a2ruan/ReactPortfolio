@@ -25,10 +25,23 @@ export default function About() {
             </p>
             <p><span style={{color: info.baseColor}}>skills/tools <span
                 className={Style.green}>(main)</span> $</span> ls</p>
-            <p style={{color: info.baseColor}}> Proficient With</p>
+            <br></br>
+            <p style={{color: info.baseColor}}> Languages</p>
             <ul className={Style.skills}>
-                {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
+                {info.skills.languages.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
+            <br></br>
+            <p style={{color: info.baseColor}}> Tools</p>
+            <ul className={Style.skills}>
+                {info.skills.frameworks.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
+            </ul>
+            <br></br>
+            <p style={{color: info.baseColor}}> Tools</p>
+            <ul className={Style.skills}>
+                {info.skills.tools.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
+            </ul>
+            <br></br>
+            <br></br>
             <p style={{color: info.baseColor}}> Exposed To</p>
             <ul className={Style.skills}>
                 {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
