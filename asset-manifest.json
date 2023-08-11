@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0b0cfe33.css",
-    "main.js": "/portfolio/static/js/main.b377d74b.js",
-    "static/media/self.png": "/portfolio/static/media/self.32707d9b417e43c11fcd.png",
-    "static/media/report_demo.gif": "/portfolio/static/media/report_demo.117937851f12096c4cd4.gif",
-    "static/media/mock5.png": "/portfolio/static/media/mock5.c9b5f54e8517e13fc897.png",
-    "static/media/ardunet_banner.jpg": "/portfolio/static/media/ardunet_banner.79bd2234927e5ff0cbd0.jpg",
-    "static/media/redis_priority_queue.PNG": "/portfolio/static/media/redis_priority_queue.8e69d1dbf43dc1f955e5.PNG",
-    "static/media/mock2.png": "/portfolio/static/media/mock2.e8ed2c07928dfdc15a79.png",
-    "index.html": "/portfolio/index.html",
-    "main.0b0cfe33.css.map": "/portfolio/static/css/main.0b0cfe33.css.map",
-    "main.b377d74b.js.map": "/portfolio/static/js/main.b377d74b.js.map"
+    "main.css": "/static/css/main.0b0cfe33.css",
+    "main.js": "/static/js/main.f577a5bf.js",
+    "static/media/self.png": "/static/media/self.32707d9b417e43c11fcd.png",
+    "static/media/report_demo.gif": "/static/media/report_demo.117937851f12096c4cd4.gif",
+    "static/media/mock5.png": "/static/media/mock5.c9b5f54e8517e13fc897.png",
+    "static/media/ardunet_banner.jpg": "/static/media/ardunet_banner.79bd2234927e5ff0cbd0.jpg",
+    "static/media/redis_priority_queue.PNG": "/static/media/redis_priority_queue.8e69d1dbf43dc1f955e5.PNG",
+    "static/media/mock2.png": "/static/media/mock2.e8ed2c07928dfdc15a79.png",
+    "index.html": "/index.html",
+    "main.0b0cfe33.css.map": "/static/css/main.0b0cfe33.css.map",
+    "main.f577a5bf.js.map": "/static/js/main.f577a5bf.js.map"
   },
   "entrypoints": [
     "static/css/main.0b0cfe33.css",
-    "static/js/main.b377d74b.js"
+    "static/js/main.f577a5bf.js"
   ]
 }
