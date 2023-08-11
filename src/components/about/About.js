@@ -3,7 +3,7 @@ import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
-
+import Divider from '@mui/material/Divider';
 
 export default function About() {
     const firstName = info.firstName.toLowerCase()
@@ -26,21 +26,35 @@ export default function About() {
             <p><span style={{color: info.baseColor}}>skills/tools <span
                 className={Style.green}>(main)</span> $</span> ls</p>
             <br></br>
+            <Divider sx={{"backgroundColor": "#404040"}}></Divider>
+            <br></br>
             <p style={{color: info.baseColor}}> Languages</p>
             <ul className={Style.skills}>
                 {info.skills.languages.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
             <br></br>
-            <p style={{color: info.baseColor}}> Tools</p>
+            <Divider sx={{"backgroundColor": "#404040"}}></Divider>
+            <br></br>
+            <p style={{color: info.baseColor}}> Frameworks</p>
             <ul className={Style.skills}>
                 {info.skills.frameworks.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
+            <br></br>
+            <Divider sx={{"backgroundColor": "#404040"}}></Divider>
             <br></br>
             <p style={{color: info.baseColor}}> Tools</p>
             <ul className={Style.skills}>
                 {info.skills.tools.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
             <br></br>
+            <Divider sx={{"backgroundColor": "#404040"}}></Divider>
+            <br></br>
+            <p style={{color: info.baseColor}}> Databases/Caches</p>
+            <ul className={Style.skills}>
+                {info.skills.databases.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
+            </ul>
+            <br></br>
+            <Divider sx={{"backgroundColor": "#404040"}}></Divider>
             <br></br>
             <p style={{color: info.baseColor}}> Exposed To</p>
             <ul className={Style.skills}>
