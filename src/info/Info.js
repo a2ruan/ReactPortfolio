@@ -78,7 +78,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Andy. I'm a systems engineer at AMD. I am currently working on developing software infrastructure for driver and hardware validation.",
+    bio: "Hello! I'm Andy. I'm a software developer at AMD. I am currently working on developing software infrastructure for automated driver and hardware validation.",
     skills:
         {
             languages: ['Python','Java','Javascript','C++'],
